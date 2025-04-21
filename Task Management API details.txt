@@ -1,0 +1,87 @@
+Getting result from below endpoints.
+http://localhost:8000/api/users/
+
+Result:
+
+[
+    {
+        "id": 1,
+        "email": "ranjeet@gmail.com",
+        "username": "ranjeetk",
+        "full_name": "Ranjeet Kumar Singh"
+    },
+    {
+        "id": 2,
+        "email": "newuser@example.com",
+        "username": "ranjeet",
+        "full_name": "ranjeet singh"
+    },
+    {
+        "id": 3,
+        "email": "newuser1@example.com",
+        "username": "newuser",
+        "full_name": "New User"
+    },
+    {
+        "id": 4,
+        "email": "newuser2@example.com",
+        "username": "newuser2",
+        "full_name": "New User"
+    }
+]
+
+Tasks:
+[
+    {
+        "id": 1,
+        "title": "Write freelance proposal",
+        "description": "Client requested a Django task API",
+        "owner_name": "ranjeetk"
+    },
+    {
+        "id": 2,
+        "title": "Learn Django",
+        "description": "Learn Django framwork",
+        "owner_name": "ranjeetk"
+    },
+    {
+        "id": 3,
+        "title": "Python learn",
+        "description": "Python is demanding language",
+        "owner_name": "ranjeetk"
+    }
+]
+---Token
+1st***********************************
+http://localhost:8000/api/token/
+{
+    "email": "ranjeet@gmail.com",
+    "password":"ists@1234"
+}
+{
+    "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NDg2NjM5MywiaWF0IjoxNzQ0Nzc5OTkzLCJqdGkiOiJhOTJiZTFhMzYzYjE0M2M2ODViMWNkODZiZjBlYWIyMiIsInVzZXJfaWQiOjF9.U3eFDyajJz5DYG0bkj2FAf-DF0sT-6XR5HYgQateccY",
+    "access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ0NzgxNzkzLCJpYXQiOjE3NDQ3Nzk5OTMsImp0aSI6ImI1NDVlYTVhMDliNjRmYjQ5OTRhNzk2YzQ2MmI4NzA2IiwidXNlcl9pZCI6MX0.2F5iZXjBDlmMHFRd78_stdEyJDq83vIdK8PHsyCbabY"
+}
+
+***************2:
+##Super user for Django Admin login:
+
+    email: "ranjeet@gmail.com",
+    password:"ists@1234"
+	
+http://localhost:8000/api/token/
+{
+  "email": "testuser@example.com",
+  "password": "test@1234"
+}
+	
+{
+  "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTgyODQ4MywiaWF0IjoxNzQ1MjIzNjgzLCJqdGkiOiJmZjMxMWE2MjU3NWI0NzdkYTc1YzBlNWYxNDNlNWVhMSIsInVzZXJfaWQiOjV9.LPKIj7G2zV66Ab4WpVTzKH1wXIIPj8h80MV5BpUIRw0",
+  "access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ1MzEwMDgzLCJpYXQiOjE3NDUyMjM2ODMsImp0aSI6ImRkODA5MWRhNjgxNTQzNDM4ODFmYTNlMTIyNmRhNjViIiwidXNlcl9pZCI6NX0._JeOu3KEI3KpiQSpoalewcnTQUYFJZWSn_X9qyNmlgk"
+}
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ0ODk3NzI3LCJpYXQiOjE3NDQ4OTU5MjcsImp0aSI6IjljOTMyODY4ZTBlMzQ3NjQ4MzBkYjhjNDc5NzU3YTRkIiwidXNlcl9pZCI6NX0.ZxroQZCZMb3rVPr-GOcrkb0PV4gWzuzs4CsAyQdIWZw
+
+---Swagger URL
+http://localhost:8000/swagger/
+
+http://localhost:8000/api/docs/

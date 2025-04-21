@@ -1,0 +1,125 @@
+
+✅ Completed
+
+✔️ Custom User model
+
+✔️ JWT token authentication & user registration
+
+✔️ Secure task creation (owner = request.user)
+
+✔️ User-specific task filtering (get_queryset)
+
+✔️ Task CRUD (GET, POST, PUT, DELETE)
+
+✔️ Permissions to restrict task access (IsOwner)
+
+✔️ Added is_completed and due_date fields
+
+✔️ Tested API endpoints in Postman
+✔️ Swagger UI Integration
+
+ 	Ensure JWT token auth is working with Swagger.						
+
+	 Test secured endpoints via Swagger UI.	
+✔️ Task Filtering & Search (Advanced)
+
+ 	Add filters: is_completed, due_date, etc.				
+
+ 	Add keyword search (e.g., by title or description).
+✔️ Pagination
+
+ 	Implement pagination in task list API.	
+
+✔️ Validation & Error Handling
+
+ Add custom validation in serializers (e.g., due_date not in past).		
+
+ Improve error responses/messages.						
+
+ Global exception handler with structured error responses			
+
+✔️ Assign Tasks to Users
+
+ Allow assigning tasks to other users (if needed).
+
+ Show assigned user in task details.
+ 
+ Add assigned_to = models.ForeignKey(User) field in the Task model
+
+ Update serializer and views to handle task assignment
+
+ Display assigned user's info in task details
+
+ Optional: Restrict who can assign (e.g., only task owner)	
+
+✔️ Unit Testing --only basic	
+
+✔️ API Documentation
+
+ Add docstrings to views and serializers.
+
+ Verify Swagger reflects field-level documentation.
+
+✔️Implement logging /tracing/debug
+		
+				
+
+
+
+Important Topics:
+You mentioned the following in your to-do list earlier:
+
+Swagger + JWT auth integration
+
+Filtering / Search 
+
+Pagination
+
+Field validation
+
+Task assignment to users
+
+Unit testing
+
+API docs
+
+Deployment
+
+Basic frontend
+
+
+
+✅ To-Do List for Task Management API – --pending
+
+
+8.Deploy to Cloud (Render / Railway)
+
+ Prepare project for deployment (whitenoise, allowed hosts, etc.).
+
+ Deploy to Render or Railway and test live endpoints.
+
+ Set up GitHub repository for version control.
+
+ Add CI/CD pipeline using GitHub Actions (automated testing, deployment).
+
+9.README.md Documentation
+
+ Write clear project overview, features, and setup instructions.
+
+ Add API endpoint details (methods, paths, request/response).
+
+ Include screenshots or links to Swagger UI / live app.
+
+10.Simple UI to Consume API
+
+ Build a basic frontend (React.js or another trending framework).
+
+ Connect UI to backend (login, task list, create/update/delete tasks).
+
+ Optional: Host frontend on Netlify/Vercel and link in README.
+
+11.Optional Enhancements
+
+ Task priority field (Low, Medium, High).
+
+ Add "updated_at" field for tracking changes.

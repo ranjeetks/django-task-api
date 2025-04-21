@@ -1,0 +1,90 @@
+INFO 2025-04-21 10:52:05,609 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 10:52:23,109 autoreload C:\Ranjeet\Study\Django\Django_Project\taskmanager\tasks\views.py changed, reloading.
+INFO 2025-04-21 10:52:23,966 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 10:52:26,403 autoreload C:\Ranjeet\Study\Django\Django_Project\taskmanager\tasks\views.py changed, reloading.
+INFO 2025-04-21 10:52:27,090 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 10:52:39,944 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 10:53:28,771 autoreload C:\Ranjeet\Study\Django\Django_Project\taskmanager\tasks\views.py changed, reloading.
+INFO 2025-04-21 10:53:29,610 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 10:53:31,229 autoreload C:\Ranjeet\Study\Django\Django_Project\taskmanager\tasks\views.py changed, reloading.
+INFO 2025-04-21 10:53:31,806 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 10:53:39,765 autoreload C:\Ranjeet\Study\Django\Django_Project\taskmanager\tasks\views.py changed, reloading.
+INFO 2025-04-21 10:53:40,498 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 10:55:23,925 autoreload C:\Ranjeet\Study\Django\Django_Project\taskmanager\tasks\views.py changed, reloading.
+INFO 2025-04-21 10:55:24,577 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 10:55:55,943 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 11:02:40,989 basehttp "GET /api/docs/ HTTP/1.1" 200 4652
+INFO 2025-04-21 11:02:41,447 basehttp "GET /api/schema/ HTTP/1.1" 200 36613
+INFO 2025-04-21 11:03:35,928 basehttp "POST /api/token/ HTTP/1.1" 200 483
+INFO 2025-04-21 11:06:16,865 basehttp "GET /api/tasks/ HTTP/1.1" 200 1193
+INFO 2025-04-21 11:07:11,725 views Task created by testuser@example.com - Task ID: 9
+INFO 2025-04-21 11:07:11,727 basehttp "POST /api/tasks/ HTTP/1.1" 201 233
+INFO 2025-04-21 11:11:58,262 autoreload C:\Ranjeet\Study\Django\Django_Project\taskmanager\tasks\views.py changed, reloading.
+INFO 2025-04-21 11:11:58,943 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 11:12:01,588 autoreload C:\Ranjeet\Study\Django\Django_Project\taskmanager\tasks\views.py changed, reloading.
+INFO 2025-04-21 11:12:02,241 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 11:26:05,621 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 11:26:29,137 basehttp "GET /api/tasks/ HTTP/1.1" 200 1230
+WARNING 2025-04-21 11:28:37,210 log Bad Request: /api/tasks/
+WARNING 2025-04-21 11:28:37,211 basehttp "POST /api/tasks/ HTTP/1.1" 400 180
+INFO 2025-04-21 11:31:58,425 autoreload C:\Ranjeet\Study\Django\Django_Project\taskmanager\core\apps.py changed, reloading.
+INFO 2025-04-21 11:31:59,172 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 11:32:00,780 autoreload C:\Ranjeet\Study\Django\Django_Project\taskmanager\core\apps.py changed, reloading.
+INFO 2025-04-21 11:32:01,558 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 11:32:27,394 autoreload C:\Ranjeet\Study\Django\Django_Project\taskmanager\core\apps.py changed, reloading.
+INFO 2025-04-21 11:32:28,066 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 11:32:29,462 autoreload C:\Ranjeet\Study\Django\Django_Project\taskmanager\core\apps.py changed, reloading.
+INFO 2025-04-21 11:32:29,968 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 11:32:36,362 autoreload C:\Ranjeet\Study\Django\Django_Project\taskmanager\core\apps.py changed, reloading.
+INFO 2025-04-21 11:32:37,019 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 11:32:38,578 autoreload C:\Ranjeet\Study\Django\Django_Project\taskmanager\core\apps.py changed, reloading.
+INFO 2025-04-21 11:32:39,347 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 11:37:12,244 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 11:39:33,088 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 11:40:53,698 autoreload C:\Ranjeet\Study\Django\Django_Project\taskmanager\taskmanager\settings.py changed, reloading.
+INFO 2025-04-21 11:40:54,484 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 11:40:56,004 autoreload C:\Ranjeet\Study\Django\Django_Project\taskmanager\taskmanager\settings.py changed, reloading.
+INFO 2025-04-21 11:40:56,646 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 11:41:01,439 autoreload C:\Ranjeet\Study\Django\Django_Project\taskmanager\taskmanager\settings.py changed, reloading.
+INFO 2025-04-21 11:41:02,184 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 11:41:12,205 autoreload C:\Ranjeet\Study\Django\Django_Project\taskmanager\taskmanager\settings.py changed, reloading.
+INFO 2025-04-21 11:41:12,880 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 11:41:14,572 autoreload C:\Ranjeet\Study\Django\Django_Project\taskmanager\taskmanager\settings.py changed, reloading.
+INFO 2025-04-21 11:41:15,253 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 11:41:20,672 autoreload C:\Ranjeet\Study\Django\Django_Project\taskmanager\taskmanager\settings.py changed, reloading.
+INFO 2025-04-21 11:41:21,234 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 11:41:25,949 autoreload C:\Ranjeet\Study\Django\Django_Project\taskmanager\taskmanager\settings.py changed, reloading.
+INFO 2025-04-21 11:41:26,595 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 11:41:32,071 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 11:42:22,513 basehttp "GET /api/docs/ HTTP/1.1" 200 4652
+INFO 2025-04-21 11:42:22,984 basehttp "GET /api/schema/ HTTP/1.1" 200 36613
+WARNING 2025-04-21 11:42:48,534 log Unauthorized: /api/tasks/
+WARNING 2025-04-21 11:42:48,534 basehttp "POST /api/tasks/ HTTP/1.1" 401 144
+WARNING 2025-04-21 11:44:37,698 log Unauthorized: /api/tasks/
+WARNING 2025-04-21 11:44:37,698 basehttp "POST /api/tasks/ HTTP/1.1" 401 144
+WARNING 2025-04-21 11:45:00,752 log Bad Request: /api/tasks/
+WARNING 2025-04-21 11:45:00,753 basehttp "POST /api/tasks/ HTTP/1.1" 400 248
+INFO 2025-04-21 11:45:22,620 views Task created by testuser@example.com - Task ID: 10
+INFO 2025-04-21 11:45:22,627 basehttp "POST /api/tasks/ HTTP/1.1" 201 223
+INFO 2025-04-21 13:49:45,542 autoreload Watching for file changes with StatReloader
+INFO 2025-04-21 13:51:23,873 basehttp "POST /api/token/ HTTP/1.1" 200 483
+INFO 2025-04-21 13:53:21,660 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-04-21 13:53:21,771 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4157
+INFO 2025-04-21 13:53:21,827 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-04-21 13:53:21,830 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-04-21 13:53:21,833 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-04-21 13:53:21,835 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-04-21 13:53:21,837 basehttp "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2025-04-21 13:53:21,841 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-04-21 13:53:21,844 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+WARNING 2025-04-21 13:53:21,909 log Not Found: /favicon.ico
+WARNING 2025-04-21 13:53:21,913 basehttp "GET /favicon.ico HTTP/1.1" 404 2853
+INFO 2025-04-21 13:54:02,741 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4330
+INFO 2025-04-21 13:54:28,532 logging_signals User logged in: ranjeet@gmail.com (ID: 1)
+INFO 2025-04-21 13:54:28,545 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-04-21 13:54:28,578 basehttp "GET /admin/ HTTP/1.1" 200 5303
+INFO 2025-04-21 13:54:28,605 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2025-04-21 13:54:28,704 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-04-21 13:54:28,706 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-04-21 13:55:26,831 logging_signals User logged out: ranjeet@gmail.com (ID: 1)
+INFO 2025-04-21 13:55:26,863 basehttp "POST /admin/logout/ HTTP/1.1" 200 3555
