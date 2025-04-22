@@ -41,7 +41,7 @@ def root_view(request):
     #return JsonResponse({"message": "Welcome to the Task Management API!", "docs": "/api/docs/"})
 
 urlpatterns = [
-    path('', root_view),  # 👈 Add this
+    path('api/', root_view),  # 👈 Add this
     path('admin/', admin.site.urls),
     path('api/', include('tasks.urls')),
     path('api/users/', include('users.urls')),
