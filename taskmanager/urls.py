@@ -34,6 +34,7 @@ from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
 #    authentication_classes=[]  # ✅ Optional but safe to keep
 # )
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('tasks.urls')),

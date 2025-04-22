@@ -88,3 +88,41 @@ INFO 2025-04-21 13:54:28,704 basehttp "GET /static/admin/img/icon-addlink.svg HT
 INFO 2025-04-21 13:54:28,706 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
 INFO 2025-04-21 13:55:26,831 logging_signals User logged out: ranjeet@gmail.com (ID: 1)
 INFO 2025-04-21 13:55:26,863 basehttp "POST /admin/logout/ HTTP/1.1" 200 3555
+INFO 2025-04-22 11:34:42,692 autoreload Watching for file changes with StatReloader
+INFO 2025-04-22 11:34:45,385 autoreload C:\Ranjeet\Study\Django\Django_Project\taskmanager\taskmanager\settings.py changed, reloading.
+INFO 2025-04-22 11:34:46,168 autoreload Watching for file changes with StatReloader
+ERROR 2025-04-22 11:34:49,238 exception Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Ranjeet\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Ranjeet\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Ranjeet\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\Ranjeet\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-04-22 11:34:49,248 log Bad Request: /swagger/
+WARNING 2025-04-22 11:34:49,249 basehttp "GET /swagger/ HTTP/1.1" 400 143
+INFO 2025-04-22 11:34:57,629 autoreload C:\Ranjeet\Study\Django\Django_Project\taskmanager\taskmanager\settings.py changed, reloading.
+INFO 2025-04-22 11:34:58,306 autoreload Watching for file changes with StatReloader
+INFO 2025-04-22 11:35:40,212 autoreload C:\Ranjeet\Study\Django\Django_Project\taskmanager\taskmanager\settings.py changed, reloading.
+INFO 2025-04-22 11:35:40,816 autoreload Watching for file changes with StatReloader
+INFO 2025-04-22 11:35:48,890 autoreload C:\Ranjeet\Study\Django\Django_Project\taskmanager\taskmanager\settings.py changed, reloading.
+INFO 2025-04-22 11:35:49,702 autoreload Watching for file changes with StatReloader
+ERROR 2025-04-22 11:35:52,030 exception Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Ranjeet\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Ranjeet\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\utils\deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Ranjeet\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Users\Ranjeet\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2025-04-22 11:35:52,033 log Bad Request: /swagger/
+WARNING 2025-04-22 11:35:52,034 basehttp "GET /swagger/ HTTP/1.1" 400 143
+INFO 2025-04-22 11:36:42,439 autoreload C:\Ranjeet\Study\Django\Django_Project\taskmanager\taskmanager\settings.py changed, reloading.
+INFO 2025-04-22 11:36:43,166 autoreload Watching for file changes with StatReloader
+INFO 2025-04-22 11:36:46,890 autoreload C:\Ranjeet\Study\Django\Django_Project\taskmanager\taskmanager\settings.py changed, reloading.
