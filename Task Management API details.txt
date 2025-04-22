@@ -76,8 +76,8 @@ http://localhost:8000/api/token/
 }
 	
 {
-  "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTgyODQ4MywiaWF0IjoxNzQ1MjIzNjgzLCJqdGkiOiJmZjMxMWE2MjU3NWI0NzdkYTc1YzBlNWYxNDNlNWVhMSIsInVzZXJfaWQiOjV9.LPKIj7G2zV66Ab4WpVTzKH1wXIIPj8h80MV5BpUIRw0",
-  "access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ1MzEwMDgzLCJpYXQiOjE3NDUyMjM2ODMsImp0aSI6ImRkODA5MWRhNjgxNTQzNDM4ODFmYTNlMTIyNmRhNjViIiwidXNlcl9pZCI6NX0._JeOu3KEI3KpiQSpoalewcnTQUYFJZWSn_X9qyNmlgk"
+  "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTkzMDA4NywiaWF0IjoxNzQ1MzI1Mjg3LCJqdGkiOiJlODlhMjFkN2I5NTU0MjQ3OTRjNjc2ODczNTkyMWMxMCIsInVzZXJfaWQiOjV9.87cw5wdWZL3J7VGIs3Oz7nzUq6ZzDmGyTDoOwtVgqCU",
+  "access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ1NDExNjg3LCJpYXQiOjE3NDUzMjUyODcsImp0aSI6ImFmZGNhYzE0ZjYzZTRmODdiNDQ4YmQwOWUxZWU2NTgxIiwidXNlcl9pZCI6NX0.HrcC3f92yyTHxbBrR9WDeSnLZcXeqC8WMFLPUTJxTgY"
 }
 Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ0ODk3NzI3LCJpYXQiOjE3NDQ4OTU5MjcsImp0aSI6IjljOTMyODY4ZTBlMzQ3NjQ4MzBkYjhjNDc5NzU3YTRkIiwidXNlcl9pZCI6NX0.ZxroQZCZMb3rVPr-GOcrkb0PV4gWzuzs4CsAyQdIWZw
 
@@ -85,3 +85,25 @@ Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhw
 http://localhost:8000/swagger/
 
 http://localhost:8000/api/docs/
+
+-----------Render
+https://taskmanager-api.onrender.com
+
+can we user
+from drf_yasg.views import get_schema_view
+from drf_yasg import openapi
+from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
+
+What to do instead?
+Since your docs and APIs are prefixed (as per your urls.py), use:
+
+✅ Swagger UI:
+https://taskmanager-api.onrender.com/api/docs/
+
+✅ Schema JSON (OpenAPI):
+https://taskmanager-api.onrender.com/api/schema/
+
+✅ API Endpoints like:
+https://taskmanager-api.onrender.com/
+https://taskmanager-api.onrender.com/api/tasks/
+https://taskmanager-api.onrender.com/api/users/register/
