@@ -20,6 +20,7 @@ from rest_framework import permissions
 #from drf_yasg.views import get_schema_view
 #from drf_yasg import openapi
 from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
+from django.http import JsonResponse
 
 
 # schema_view = get_schema_view(
@@ -34,8 +35,11 @@ from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
 #    authentication_classes=[]  # ✅ Optional but safe to keep
 # )
 
+def root_view(request):
+    return JsonResponse({"message": "Welcome to the Task Management API!", "docs": "/api/docs/"})
 
 urlpatterns = [
+    path('', root_view),  # 👈 Add this
     path('admin/', admin.site.urls),
     path('api/', include('tasks.urls')),
     path('api/users/', include('users.urls')),
