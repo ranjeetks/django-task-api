@@ -91,8 +91,22 @@ Basic frontend
 
 ✅ To-Do List for Task Management API – --pending
 
+🚀 Next Step: Ready for Deployment
+Now that your code is on GitHub, you can:
 
-8.Deploy to Cloud (Render / Railway)
+Head over to Render.com
+
+Create a free account or log in
+
+Click "New Web Service"
+
+Choose your GitHub repo (django-task-api)
+
+Follow deployment steps (I can walk you through this too!)
+
+------------------------
+
+#Deploy to Cloud (Render / Railway)
 
  Prepare project for deployment (whitenoise, allowed hosts, etc.).
 
@@ -102,7 +116,9 @@ Basic frontend
 
  Add CI/CD pipeline using GitHub Actions (automated testing, deployment).
 
-9.README.md Documentation
+
+
+#README.md Documentation
 
  Write clear project overview, features, and setup instructions.
 
@@ -110,7 +126,7 @@ Basic frontend
 
  Include screenshots or links to Swagger UI / live app.
 
-10.Simple UI to Consume API
+#Simple UI to Consume API
 
  Build a basic frontend (React.js or another trending framework).
 
@@ -118,7 +134,7 @@ Basic frontend
 
  Optional: Host frontend on Netlify/Vercel and link in README.
 
-11.Optional Enhancements
+#Optional Enhancements
 
  Task priority field (Low, Medium, High).
 

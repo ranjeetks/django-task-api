@@ -61,6 +61,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'taskmanager.urls'
@@ -209,7 +210,8 @@ LOGGING = {
 }
 
 
-
+import dj_database_url
+import django_heroku
 import os
 
 DEBUG = False
@@ -219,6 +221,9 @@ ALLOWED_HOSTS = ['.onrender.com']
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
-import django_heroku
+
 django_heroku.settings(locals())
+
+if 'DATABASE_URL' in os.environ:
+    DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
 
