@@ -61,6 +61,16 @@
  Verify Swagger reflects field-level documentation.
 
 ✔️Implement logging /tracing/debug
+
+✔️Deploy to Cloud (Render / Railway)
+
+ Prepare project for deployment (whitenoise, allowed hosts, etc.).
+
+ Deploy to Render or Railway and test live endpoints.
+
+ Set up GitHub repository for version control.
+
+ Add CI/CD pipeline using GitHub Actions (automated testing, deployment). ---PENDING
 		
 				
 
@@ -91,31 +101,22 @@ Basic frontend
 
 ✅ To-Do List for Task Management API – --pending
 
-🚀 Next Step: Ready for Deployment
-Now that your code is on GitHub, you can:
+#Simple UI to Consume API
+1.
+	✅ Plain HTML + JS (no framework needed)
 
-Head over to Render.com
+	✅ Uses fetch() API
 
-Create a free account or log in
+	✅ Runs directly in the browser (no backend needed)
 
-Click "New Web Service"
+	✅ Works with your Render-deployed Django API
 
-Choose your GitHub repo (django-task-api)
+2.
+ Build a basic frontend (React.js or another trending framework).
 
-Follow deployment steps (I can walk you through this too!)
+ Connect UI to backend (login, task list, create/update/delete tasks).
 
-------------------------
-
-#Deploy to Cloud (Render / Railway)
-
- Prepare project for deployment (whitenoise, allowed hosts, etc.).
-
- Deploy to Render or Railway and test live endpoints.
-
- Set up GitHub repository for version control.
-
- Add CI/CD pipeline using GitHub Actions (automated testing, deployment).
-
+ Optional: Host frontend on Netlify/Vercel and link in README.
 
 
 #README.md Documentation
@@ -126,13 +127,6 @@ Follow deployment steps (I can walk you through this too!)
 
  Include screenshots or links to Swagger UI / live app.
 
-#Simple UI to Consume API
-
- Build a basic frontend (React.js or another trending framework).
-
- Connect UI to backend (login, task list, create/update/delete tasks).
-
- Optional: Host frontend on Netlify/Vercel and link in README.
 
 #Optional Enhancements
 

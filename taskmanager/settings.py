@@ -51,9 +51,11 @@ INSTALLED_APPS = [
     'django_filters',  # For filtering
     'drf_spectacular',  # For OpenAPI schema generation
     'core',  # Custom app for utility functions
+    'corsheaders',  # For handling CORS
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -228,3 +230,7 @@ django_heroku.settings(locals())
 if 'DATABASE_URL' in os.environ:
     DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
 
+# Configure CORS
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+]
